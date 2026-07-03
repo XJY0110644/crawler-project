@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# 数据文件（在本地生成，不上传 GitHub）
+data/github/*.db
+data/segmentfault/*.db
+data/chroma/
+data/logs/
+data/charts/
+data/report.txt
+data/*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
